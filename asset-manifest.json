@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kirans0362/my-good-reads/static/css/main.6112069f.chunk.css",
-    "main.js": "/kirans0362/my-good-reads/static/js/main.42ac1593.chunk.js",
-    "main.js.map": "/kirans0362/my-good-reads/static/js/main.42ac1593.chunk.js.map",
-    "runtime-main.js": "/kirans0362/my-good-reads/static/js/runtime-main.aa8a6ddd.js",
-    "runtime-main.js.map": "/kirans0362/my-good-reads/static/js/runtime-main.aa8a6ddd.js.map",
-    "static/js/2.647795cf.chunk.js": "/kirans0362/my-good-reads/static/js/2.647795cf.chunk.js",
-    "static/js/2.647795cf.chunk.js.map": "/kirans0362/my-good-reads/static/js/2.647795cf.chunk.js.map",
-    "index.html": "/kirans0362/my-good-reads/index.html",
-    "precache-manifest.b3e0cc3c64cf79eb34d33c7078581b9f.js": "/kirans0362/my-good-reads/precache-manifest.b3e0cc3c64cf79eb34d33c7078581b9f.js",
-    "service-worker.js": "/kirans0362/my-good-reads/service-worker.js",
-    "static/css/main.6112069f.chunk.css.map": "/kirans0362/my-good-reads/static/css/main.6112069f.chunk.css.map",
-    "static/js/2.647795cf.chunk.js.LICENSE.txt": "/kirans0362/my-good-reads/static/js/2.647795cf.chunk.js.LICENSE.txt"
+    "main.css": "/my-good-reads/static/css/main.6112069f.chunk.css",
+    "main.js": "/my-good-reads/static/js/main.f7a0fd08.chunk.js",
+    "main.js.map": "/my-good-reads/static/js/main.f7a0fd08.chunk.js.map",
+    "runtime-main.js": "/my-good-reads/static/js/runtime-main.f22e0575.js",
+    "runtime-main.js.map": "/my-good-reads/static/js/runtime-main.f22e0575.js.map",
+    "static/js/2.647795cf.chunk.js": "/my-good-reads/static/js/2.647795cf.chunk.js",
+    "static/js/2.647795cf.chunk.js.map": "/my-good-reads/static/js/2.647795cf.chunk.js.map",
+    "index.html": "/my-good-reads/index.html",
+    "precache-manifest.d2c58f0e2cfa1bc1c647ee40b263f114.js": "/my-good-reads/precache-manifest.d2c58f0e2cfa1bc1c647ee40b263f114.js",
+    "service-worker.js": "/my-good-reads/service-worker.js",
+    "static/css/main.6112069f.chunk.css.map": "/my-good-reads/static/css/main.6112069f.chunk.css.map",
+    "static/js/2.647795cf.chunk.js.LICENSE.txt": "/my-good-reads/static/js/2.647795cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa8a6ddd.js",
+    "static/js/runtime-main.f22e0575.js",
     "static/js/2.647795cf.chunk.js",
     "static/css/main.6112069f.chunk.css",
-    "static/js/main.42ac1593.chunk.js"
+    "static/js/main.f7a0fd08.chunk.js"
   ]
 }
