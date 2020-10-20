@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kirans0362/my-good-reads/static/css/main.6112069f.chunk.css",
+    "main.js": "/kirans0362/my-good-reads/static/js/main.42ac1593.chunk.js",
+    "main.js.map": "/kirans0362/my-good-reads/static/js/main.42ac1593.chunk.js.map",
+    "runtime-main.js": "/kirans0362/my-good-reads/static/js/runtime-main.aa8a6ddd.js",
+    "runtime-main.js.map": "/kirans0362/my-good-reads/static/js/runtime-main.aa8a6ddd.js.map",
+    "static/js/2.647795cf.chunk.js": "/kirans0362/my-good-reads/static/js/2.647795cf.chunk.js",
+    "static/js/2.647795cf.chunk.js.map": "/kirans0362/my-good-reads/static/js/2.647795cf.chunk.js.map",
+    "index.html": "/kirans0362/my-good-reads/index.html",
+    "precache-manifest.b3e0cc3c64cf79eb34d33c7078581b9f.js": "/kirans0362/my-good-reads/precache-manifest.b3e0cc3c64cf79eb34d33c7078581b9f.js",
+    "service-worker.js": "/kirans0362/my-good-reads/service-worker.js",
+    "static/css/main.6112069f.chunk.css.map": "/kirans0362/my-good-reads/static/css/main.6112069f.chunk.css.map",
+    "static/js/2.647795cf.chunk.js.LICENSE.txt": "/kirans0362/my-good-reads/static/js/2.647795cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa8a6ddd.js",
+    "static/js/2.647795cf.chunk.js",
+    "static/css/main.6112069f.chunk.css",
+    "static/js/main.42ac1593.chunk.js"
+  ]
+}
