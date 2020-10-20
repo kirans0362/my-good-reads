@@ -1,0 +1,258 @@
+@import './variables';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 24px;
+  margin: $spacing-xxs 0;
+  font-weight: 300;
+}
+
+input {
+  font-size: 0.8rem;
+  border: none;
+  border-bottom: 1px solid $gray40;
+  padding: $spacing-xxs;
+}
+
+a {
+  cursor: pointer;
+  color: $blue-accent;
+
+  &:hover {
+    color: $blue-dark;
+  }
+
+  h1 {
+    flex: 1;
+  }
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: $blue-accent;
+  color: $white;
+  padding: $spacing-3xs $spacing-xs;
+
+  button {
+    padding: 0 $spacing-xs;
+  }
+}
+
+.header--content {
+  display: flex;
+  height: 10vh;
+  > * {
+    display: flex;
+    align-items: center;
+  }
+}
+
+main {
+  padding: $spacing-xs $spacing-xxs;
+  min-width: 300px;
+  max-width: 100vw;
+  margin: 0 auto;
+  display:flex;
+}
+
+.reading-list-container {
+  padding: 0;
+  width: 400px;
+  height: 100vh;
+
+  h2 {
+    position: relative;
+    color: $white;
+    background-color: $gray80;
+    margin: 0;
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+  button {
+    position: absolute;
+    top: $spacing-xxs;
+    right: $spacing-xxs;
+    padding: 0;
+    min-width: 36px;
+  }
+}
+
+.reading-list-content {
+  padding: $spacing-xxs;
+}
+
+.empty {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  font-size: 1.5rem;
+  color: $gray40;
+}
+
+form {
+  margin-bottom: $spacing-xs;
+}
+
+.full-width {
+  width: 100%;
+}
+.book {
+  border: 1px solid silver;
+  margin-top: .5rem;
+}
+.book--container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+  align-items: stretch;
+  width:70%
+}
+.book-containerOnly{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+  align-items: stretch;
+  width:100%
+}
+
+.search-params {
+  flex-grow: 3;
+
+}
+.sidebar {
+  flex-grow: 1;
+
+}
+.list{
+  width:100%;
+}
+.list-elements{
+    padding: 20px;
+    height:40px;
+    width: 18%;
+    display: inline-block;
+    margin: 0px 58px;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+}
+.list-elementsOnly{
+  padding: 20px;
+    height:40px;
+    width: 25%;
+    display: inline-block;
+    margin: 0px 58px;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+}
+.list-image{
+  padding-top: 20px;
+}
+.wish-button{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #3665f3;
+    padding: 12px;
+    color: #ffffff;
+}
+.description{
+  height:40px;
+  overflow: scroll;
+}
+.wish-list-container{
+    width:30%;
+    margin-left: 30px;
+}
+.wishListTitle{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height:5.5vh;
+}
+.wish-button:disabled{
+  cursor:pointer;
+  background-color: silver;
+}
+.wishListItems{
+  font-size: 12px;
+}
+.wish-List-elements{
+  display: flex;
+  justify-content: space-between;
+}
+.tag-remove{
+  cursor: pointer;
+  margin-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 26px;
+    margin-right: 8px;
+  border-radius: 15px;
+    background-color: #3665f3;
+    border: 1px;
+}
+
+.tag-remove::before {
+  content: 'x'; // here is your X(cross) sign.
+  color: #fff;
+  font-weight: 300;
+  background-color: #3665f3;
+  font-family: Arial, sans-serif;
+}
+.header-wishlist{
+  position: sticky;
+  top: 0;
+  background-color: $blue-accent;
+  color: $white;
+  padding: $spacing-3xs $spacing-xs;
+
+  button {
+    padding: 0 $spacing-xs;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list-elements{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height:auto;
+    width:100%;
+    padding:20px;
+    margin:0px;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+    margin-left: 58px;
+    border-radius: 30px;
+  }
+  .list-items{
+    padding-left:30px
+  }
+  .full-width{
+    margin-left: 58px;
+  }
+  main {
+    display:block;
+  }
+  .wish-list-container{
+    width:100%;
+    margin-left: 0px;
+    padding:30px;
+}
+}
