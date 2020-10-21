@@ -241,6 +241,20 @@ form {
     margin-left: 58px;
     border-radius: 30px;
   }
+  .list-elementsOnly{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height:auto;
+    width:100%;
+    padding:20px;
+    margin:0px;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+    margin-left: 58px;
+    border-radius: 30px;
+  }
   .list-items{
     padding-left:30px
   }
@@ -254,5 +268,12 @@ form {
     width:100%;
     margin-left: 0px;
     padding:30px;
+}
+.book-containerOnly{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+  align-items: stretch;
+  width:70%
 }
 }
